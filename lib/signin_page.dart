@@ -211,9 +211,7 @@ class _SignInPageState extends State<SignInPage> {
     String password = passwordController.text;
 
     //send  data using http post to our php code
-    http.Response response = await http.post(Uri.parse(
-        'https://iotmachlab.000webhostapp.com/api/register/login.php?email=$email&password=$password'));
-    // http.Response response = await http.post(Uri.parse('https://iotmachlab.000webhostapp.com/api/register/read_all.php'))  ;
+    http.Response response = await http.post(Uri.parse());
     //getting response from php code, here
     var data = jsonDecode(response.body);
     // print('success');
