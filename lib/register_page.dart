@@ -276,7 +276,6 @@ class _RegisterPageState extends State<RegisterPage> {
     //send  data using http post to our php code
     http.Response response = await http.post(Uri.parse(
 ));
-    // http.Response response = await http.post(Uri.parse('https://iotmachlab.000webhostapp.com/api/register/read_all.php'))  ;
     //getting response from php code, here
     var data = jsonDecode(response.body);
     if (response.statusCode == 200 && data['status'] == 'success') {
