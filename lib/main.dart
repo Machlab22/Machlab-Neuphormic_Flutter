@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
                       height: 50,
                     ),
                     const Text(
-                      "Hindustan Smart Automations",
+                      "Machlab",
                       textAlign: TextAlign.start,
                       textScaleFactor: 2,
                       style: TextStyle(
