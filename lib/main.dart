@@ -36,11 +36,6 @@ class MyHomePage extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      // floatingActionButton: NeumorphicFloatingActionButton(
-      //   style: ,
-      //   child: const Icon(Icons.add, size: 30),
-      //   onPressed: () {},
-      // ),
       backgroundColor: const Color(0xff212426),
       body: SafeArea(
         child: Padding(
